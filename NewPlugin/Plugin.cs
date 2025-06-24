@@ -169,24 +169,6 @@ namespace EmployeesLoaderPlugin
                             }
                         }
                         break;
-                    //case "ja":                        
-                    //    Console.WriteLine("Загрузка данных...");
-                    //    index = 0;
-                    //    string TempName;
-                    //    EmployeesDTO nextEmp = new EmployeesDTO();
-                    //    List<EmployeesDTO> nextEmpList = new List<EmployeesDTO>();                       
-
-                    //    foreach (var employee in currencyDataJson)
-                    //    {
-                    //        TempName = "";
-                    //        nextEmp.Name = TempName + employee.Name;
-                    //        nextEmpList.Add(nextEmp);
-                    //        arrEmps[index, 0] = nextEmpList[0].Name;
-                    //        arrEmps[index, 1] = nextEmpList[0].Phone;
-                    //        ++index;
-                    //    }
-
-                    //    break;
                     case "a2":
                         Console.Write("Name: >>");
                         string name2 = Console.ReadLine();
