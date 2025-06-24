@@ -11,7 +11,7 @@ using PhoneApp.Domain;
 using PhoneApp.Domain.Attributes;
 using PhoneApp.Domain.DTO;
 using PhoneApp.Domain.Interfaces;
-namespace EmployeesLoaderPlugin
+namespace NewPlugin
 {
 
     [Author(Name = "Pavel Novopashin")]
@@ -195,30 +195,6 @@ namespace EmployeesLoaderPlugin
                         employeesList.Add(nextE);
                         Console.WriteLine($"{name} added to employees");
                         break;
-                    //case "json":
-
-                    //    nextEJson.Name = "nameTemp";
-                    //    nextEJson.Name = null;
-                    //    nextEJson.Name = "nameTemp1";
-                    //    nextEJson.Name = "nameTemp2";
-                    //    nextEJson.AddPhone("phoneTemp");
-
-
-                    //    var fileJson = "{\r\n      \"id\": 1,\r\n      \"Name\": \"Emily\",\r\n      \"lastName\": \"Johnson\",\r\n      \"maidenName\": \"Smith\",\r\n      \"age\": 28,\r\n      \"gender\": \"female\",\r\n      \"email\": \"emily.johnson@x.dummyjson.com\",\r\n      \"phone\": \"+81 965-431-3024\",\r\n      \"username\": \"emilys\",\r\n      \"password\": \"emilyspass\",\r\n      \"birthDate\": \"1996-5-30\",\r\n      \"image\": \"https://dummyjson.com/icon/emilys/128\",\r\n      \"bloodGroup\": \"O-\",\r\n      \"height\": 193.24,\r\n      \"weight\": 63.16,\r\n      \"eyeColor\": \"Green\",\r\n      \"hair\": {\r\n        \"color\": \"Brown\",\r\n        \"type\": \"Curly\"\r\n      },\r\n      \"ip\": \"42.48.100.32\",\r\n      \"address\": {\r\n        \"address\": \"626 Main Street\",\r\n        \"city\": \"Phoenix\",\r\n        \"state\": \"Mississippi\",\r\n        \"stateCode\": \"MS\",\r\n        \"postalCode\": \"29112\",\r\n        \"coordinates\": {\r\n          \"lat\": -77.16213,\r\n          \"lng\": -92.084824\r\n        },\r\n        \"country\": \"United States\"\r\n      },\r\n      \"macAddress\": \"47:fa:41:18:ec:eb\",\r\n      \"university\": \"University of Wisconsin--Madison\",\r\n      \"bank\": {\r\n        \"cardExpire\": \"03/26\",\r\n        \"cardNumber\": \"9289760655481815\",\r\n        \"cardType\": \"Elo\",\r\n        \"currency\": \"CNY\",\r\n        \"iban\": \"YPUXISOBI7TTHPK2BR3HAIXL\"\r\n      },\r\n      \"company\": {\r\n        \"department\": \"Engineering\",\r\n        \"name\": \"Dooley, Kozey and Cronin\",\r\n        \"title\": \"Sales Manager\",\r\n        \"address\": {\r\n          \"address\": \"263 Tenth Street\",\r\n          \"city\": \"San Francisco\",\r\n          \"state\": \"Wisconsin\",\r\n          \"stateCode\": \"WI\",\r\n          \"postalCode\": \"37657\",\r\n          \"coordinates\": {\r\n            \"lat\": 71.814525,\r\n            \"lng\": -161.150263\r\n          },\r\n          \"country\": \"United States\"\r\n        }\r\n      },\r\n      \"ein\": \"977-175\",\r\n      \"ssn\": \"900-590-289\",\r\n      \"userAgent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36\",\r\n      \"crypto\": {\r\n        \"coin\": \"Bitcoin\",\r\n        \"wallet\": \"0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a\",\r\n        \"network\": \"Ethereum (ERC20)\"\r\n      },\r\n      \"role\": \"admin\"\r\n    }";
-
-
-
-                    //    Console.WriteLine("nextEJson:");
-                    //    Console.WriteLine(nextEJson.ToJson());
-                    //    Console.WriteLine("-----------------");
-                    //    Console.WriteLine("-----------------");
-                    //    Console.WriteLine("fileJson");
-                    //    Console.WriteLine(fileJson);
-                    //    employeesList.Add(nextEJson);
-                    //    //employeesList.Add(nextEJson);
-                    //    Console.WriteLine("nextEJson пользователи загружены: 1 - nameTemp2, phoneTemp");
-
-                    //    break;
                     case "f":
                         int indexLj = 0;
                         //int indexListTemporaryDto = 0;
