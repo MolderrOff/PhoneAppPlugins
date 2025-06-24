@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AddUserPlugin</id>
+    <version>1.0.0</version>
+    <authors>AddUserPlugin</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="49480412ac789a89bbe512b4f3b00a78fdf47a93" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="PhoneApp" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\VStudio2022\cvd\PhonePluginsApplication\AddUserPlugin\bin\Debug\net5.0\AddUserPlugin.dll" target="lib\net5.0\AddUserPlugin.dll" />
+  </files>
+</package>
